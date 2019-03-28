@@ -146,7 +146,7 @@ gb	/home/jjonker/.config/nvim/init.vim	/^nnoremap gb  :Gbrowse<CR> " Open curren
 gb	/home/jjonker/.config/nvim/init.vim	/^vnoremap gb  :Gbrowse<CR> " Make it work in Visual mode to open with highlighted linenumbers$/;"	m	language:Vim
 gV	/home/jjonker/.config/nvim/init.vim	/^nnoremap gV `[v`]$/;"	m	language:Vim
 j	/home/jjonker/.config/nvim/init.vim	/^map j gj$/;"	m	language:Vim
-jj	/home/jjonker/.config/nvim/init.vim	/^inoremap jj <ESC>$/;"	m	language:Vim
+jjj	/home/jjonker/.config/nvim/init.vim	/^inoremap jjj <ESC>$/;"	m	language:Vim
 k	/home/jjonker/.config/nvim/init.vim	/^map k gk$/;"	m	language:Vim
 K	/home/jjonker/.config/nvim/init.vim	/^nnoremap K :silent! grep! "\\b<C-R><C-W>\\b"<CR>:cw<CR>$/;"	m	language:Vim
 Light	/home/jjonker/.config/nvim/init.vim	/^command! Light set background=light$/;"	c	language:Vim

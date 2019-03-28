@@ -627,7 +627,7 @@ nnoremap <silent> <leader>ev :e $MYVIMRC<CR>
 nnoremap gb  :Gbrowse<CR> " Open current file on github.com
 vnoremap gb  :Gbrowse<CR> " Make it work in Visual mode to open with highlighted linenumbers
 
-inoremap jj <ESC>
+inoremap jjj <ESC>
 nnoremap <Leader>e :e<SPACE>
 nnoremap \ :Ag<SPACE>
 nnoremap <Leader>x :SlimuxREPLSendBuffer<CR>
