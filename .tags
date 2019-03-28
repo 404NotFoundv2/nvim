@@ -1,0 +1,179 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+$NVIM_TUI_ENABLE_CURSOR_SHAPE	/home/jjonker/.config/nvim/init.vim	/^  let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1$/;"	v	language:Vim
+$NVIM_TUI_ENABLE_TRUE_COLOR	/home/jjonker/.config/nvim/init.vim	/^  let $NVIM_TUI_ENABLE_TRUE_COLOR=1$/;"	v	language:Vim
+%s/	/home/jjonker/.config/nvim/init.vim	/^cnoremap %s\/ %smagic\/$/;"	m	language:Vim
+--	/home/jjonker/.config/nvim/init.vim	/^nnoremap -- :UndotreeToggle<CR>$/;"	m	language:Vim
+.	/home/jjonker/.config/nvim/init.vim	/^vmap . :norm.<CR>$/;"	m	language:Vim
+/	/home/jjonker/.config/nvim/init.vim	/^nnoremap \/ \/\\v$/;"	m	language:Vim
+/	/home/jjonker/.config/nvim/init.vim	/^vnoremap \/ \/\\v$/;"	m	language:Vim
+<C-h>	/home/jjonker/.config/nvim/init.vim	/^map <C-h> <C-w>h$/;"	m	language:Vim
+<C-j>	/home/jjonker/.config/nvim/init.vim	/^map <C-j> <C-w>j$/;"	m	language:Vim
+<C-k>	/home/jjonker/.config/nvim/init.vim	/^map <C-k> <C-w>k$/;"	m	language:Vim
+<C-l>	/home/jjonker/.config/nvim/init.vim	/^map <C-l> <C-w>l$/;"	m	language:Vim
+<down>	/home/jjonker/.config/nvim/init.vim	/^imap <down>  <nop>$/;"	m	language:Vim
+<down>	/home/jjonker/.config/nvim/init.vim	/^map  <down>  <nop>$/;"	m	language:Vim
+<Down>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Down> :resize +2<CR>$/;"	m	language:Vim
+<Enter>	/home/jjonker/.config/nvim/init.vim	/^vmap <Enter> <Plug>(EasyAlign)$/;"	m	language:Vim
+<F2>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <F2> :set invpaste paste?<CR>$/;"	m	language:Vim
+<Leader><Enter>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <Leader><Enter> :call fzf#run({$/;"	m	language:Vim
+<leader><leader>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <leader><leader> :call fzf#run({$/;"	m	language:Vim
+<Leader><TAB>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Leader><TAB> <C-w><C-w>$/;"	m	language:Vim
+<Leader>bd	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Leader>bd :Bdelete<CR>$/;"	m	language:Vim
+<Leader>C	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <Leader>C :call fzf#run({$/;"	m	language:Vim
+<leader>d	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <leader>d :20Lex<CR>$/;"	m	language:Vim
+<Leader>e	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Leader>e :e<SPACE>$/;"	m	language:Vim
+<leader>ev	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <leader>ev :e $MYVIMRC<CR>$/;"	m	language:Vim
+<leader>fm	/home/jjonker/.config/nvim/init.vim	/^nnoremap <leader>fm :Goyo<CR>$/;"	m	language:Vim
+<leader>ll	/home/jjonker/.config/nvim/init.vim	/^nnoremap <leader>ll :Limelight!!<CR>$/;"	m	language:Vim
+<Leader>n	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Leader>n :call ToggleNumber()<CR>$/;"	m	language:Vim
+<Leader>nf	/home/jjonker/.config/nvim/init.vim	/^map <Leader>nf :e <C-R>=expand("%:p:h") . "\/" <CR>$/;"	m	language:Vim
+<Leader>s	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <Leader>s :call fzf#run({$/;"	m	language:Vim
+<leader>ss	/home/jjonker/.config/nvim/init.vim	/^nnoremap <leader>ss :mksession<CR>$/;"	m	language:Vim
+<leader>sv	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <leader>sv :so $MYVIMRC<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>$/;"	m	language:Vim
+<Leader>t	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Leader>t :TagbarToggle<CR>$/;"	m	language:Vim
+<leader>tw	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>$/;"	m	language:Vim
+<Leader>v	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <Leader>v :call fzf#run({$/;"	m	language:Vim
+<Leader>x	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Leader>x :SlimuxREPLSendBuffer<CR>$/;"	m	language:Vim
+<Leader>x	/home/jjonker/.config/nvim/init.vim	/^vnoremap <Leader>x :SlimuxREPLSendSelection<CR>$/;"	m	language:Vim
+<leader>z	/home/jjonker/.config/nvim/init.vim	/^nnoremap <silent> <leader>z :ZoomToggle<CR>$/;"	m	language:Vim
+<left>	/home/jjonker/.config/nvim/init.vim	/^imap <left>  <nop>$/;"	m	language:Vim
+<left>	/home/jjonker/.config/nvim/init.vim	/^map  <left>  <nop>$/;"	m	language:Vim
+<Left>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Left> :vertical resize -2<CR>$/;"	m	language:Vim
+<right>	/home/jjonker/.config/nvim/init.vim	/^imap <right> <nop>$/;"	m	language:Vim
+<right>	/home/jjonker/.config/nvim/init.vim	/^map  <right> <nop>$/;"	m	language:Vim
+<Right>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Right> :vertical resize +2<CR>$/;"	m	language:Vim
+<S-tab>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <S-tab> :bprevious<CR>$/;"	m	language:Vim
+<space>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <space> <nop>$/;"	m	language:Vim
+<Space>	/home/jjonker/.config/nvim/init.vim	/^noremap <Space> za$/;"	m	language:Vim
+<tab>	/home/jjonker/.config/nvim/init.vim	/^  inoremap <expr><tab> pumvisible() ? "\\<c-n>" : "\\<tab>"$/;"	m	language:Vim
+<TAB>	/home/jjonker/.config/nvim/init.vim	/^inoremap <expr><TAB>  pumvisible() ? "\\<C-n>" : "\\<TAB>"$/;"	m	language:Vim
+<tab>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <tab>   :bnext<CR>$/;"	m	language:Vim
+<up>	/home/jjonker/.config/nvim/init.vim	/^imap <up>    <nop>$/;"	m	language:Vim
+<up>	/home/jjonker/.config/nvim/init.vim	/^map  <up>    <nop>$/;"	m	language:Vim
+<Up>	/home/jjonker/.config/nvim/init.vim	/^nnoremap <Up> :resize -2<CR>$/;"	m	language:Vim
+==	/home/jjonker/.config/nvim/init.vim	/^nnoremap == <C-w>t<C-w>K<CR>$/;"	m	language:Vim
+auto_goyo	/home/jjonker/.config/nvim/init.vim	/^function! s:auto_goyo()$/;"	f	language:Vim
+bgcolor	/home/jjonker/.config/nvim/init.vim	/^let bgcolor=synIDattr(synIDtrans(hlID("Normal")), "bg", "gui")$/;"	v	language:Vim
+BufList	/home/jjonker/.config/nvim/init.vim	/^function! BufList()$/;"	f	language:Vim
+BufOpen	/home/jjonker/.config/nvim/init.vim	/^function! BufOpen(e)$/;"	f	language:Vim
+C	/home/jjonker/.config/nvim/init.vim	/^command! C nohlsearch$/;"	c	language:Vim
+ClearRegisters	/home/jjonker/.config/nvim/init.vim	/^command! ClearRegisters call ClearRegisters()$/;"	c	language:Vim
+ClearRegisters	/home/jjonker/.config/nvim/init.vim	/^function! ClearRegisters()$/;"	f	language:Vim
+Del	/home/jjonker/.config/nvim/init.vim	/^command! Del :call delete(@%) | bdelete!$/;"	c	language:Vim
+fgcolor	/home/jjonker/.config/nvim/init.vim	/^let fgcolor=synIDattr(synIDtrans(hlID("Normal")), "fg", "gui")$/;"	v	language:Vim
+g:ag_prg	/home/jjonker/.config/nvim/init.vim	/^  let g:ag_prg="ag --column"$/;"	v	language:Vim
+g:airline_theme	/home/jjonker/.config/nvim/init.vim	/^let g:airline_theme='murmur'$/;"	v	language:Vim
+g:buftabline_indicators	/home/jjonker/.config/nvim/init.vim	/^let g:buftabline_indicators=1$/;"	v	language:Vim
+g:delimitMate_excluded_regions	/home/jjonker/.config/nvim/init.vim	/^let g:delimitMate_excluded_regions = ''$/;"	v	language:Vim
+g:delimitMate_expand_cr	/home/jjonker/.config/nvim/init.vim	/^let g:delimitMate_expand_cr = 2$/;"	v	language:Vim
+g:delimitMate_expand_space	/home/jjonker/.config/nvim/init.vim	/^let g:delimitMate_expand_space = 1$/;"	v	language:Vim
+g:delimitMate_jump_expansion	/home/jjonker/.config/nvim/init.vim	/^let g:delimitMate_jump_expansion = 1$/;"	v	language:Vim
+g:deoplete#disable_auto_complete	/home/jjonker/.config/nvim/init.vim	/^  let g:deoplete#disable_auto_complete = 1$/;"	v	language:Vim
+g:deoplete#enable_at_startup	/home/jjonker/.config/nvim/init.vim	/^  let g:deoplete#enable_at_startup = 1$/;"	v	language:Vim
+g:deoplete#omni#input_patterns	/home/jjonker/.config/nvim/init.vim	/^    let g:deoplete#omni#input_patterns = {}$/;"	v	language:Vim
+g:easytags_async	/home/jjonker/.config/nvim/init.vim	/^let g:easytags_async = 1$/;"	v	language:Vim
+g:easytags_dynamic_files	/home/jjonker/.config/nvim/init.vim	/^let g:easytags_dynamic_files = 2$/;"	v	language:Vim
+g:easytags_events	/home/jjonker/.config/nvim/init.vim	/^let g:easytags_events = ['BufReadPost', 'BufWritePost']$/;"	v	language:Vim
+g:easytags_resolve_links	/home/jjonker/.config/nvim/init.vim	/^let g:easytags_resolve_links = 1$/;"	v	language:Vim
+g:gist_detect_filetype	/home/jjonker/.config/nvim/init.vim	/^let g:gist_detect_filetype = 1$/;"	v	language:Vim
+g:gist_get_multiplefile	/home/jjonker/.config/nvim/init.vim	/^let g:gist_get_multiplefile = 1$/;"	v	language:Vim
+g:gist_open_browser_after_post	/home/jjonker/.config/nvim/init.vim	/^let g:gist_open_browser_after_post = 1$/;"	v	language:Vim
+g:gist_show_privates	/home/jjonker/.config/nvim/init.vim	/^let g:gist_show_privates = 1$/;"	v	language:Vim
+g:gitgutter_eager	/home/jjonker/.config/nvim/init.vim	/^let g:gitgutter_eager = 0$/;"	v	language:Vim
+g:github_user	/home/jjonker/.config/nvim/init.vim	/^let g:github_user = $GITHUB_USER$/;"	v	language:Vim
+g:goyo_width	/home/jjonker/.config/nvim/init.vim	/^let g:goyo_width=120$/;"	v	language:Vim
+g:gruvbox_contrast_dark	/home/jjonker/.config/nvim/init.vim	/^let g:gruvbox_contrast_dark='hard'$/;"	v	language:Vim
+g:gruvbox_italic	/home/jjonker/.config/nvim/init.vim	/^let g:gruvbox_italic=1$/;"	v	language:Vim
+g:javascript_enable_domhtmlcss	/home/jjonker/.config/nvim/init.vim	/^let g:javascript_enable_domhtmlcss = 1$/;"	v	language:Vim
+g:limelight_conceal_ctermfg	/home/jjonker/.config/nvim/init.vim	/^let g:limelight_conceal_ctermfg = 240$/;"	v	language:Vim
+g:markdown_fenced_languages	/home/jjonker/.config/nvim/init.vim	/^let g:markdown_fenced_languages = ['css', 'erb=eruby', 'javascript', 'js=javascript', 'json=json', 'ruby', 'sass', 'scss=sass', 'xml', 'html', 'python', 'stylus=css', 'less=css']$/;"	v	language:Vim
+g:neocomplete#auto_completion_start_length	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#auto_completion_start_length = 1$/;"	v	language:Vim
+g:neocomplete#data_directory	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#data_directory = $HOME.'\/.vim\/cache\/noecompl'$/;"	v	language:Vim
+g:neocomplete#enable_at_startup	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#enable_at_startup = 1$/;"	v	language:Vim
+g:neocomplete#enable_smart_case	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#enable_smart_case = 1$/;"	v	language:Vim
+g:neocomplete#force_omni_input_patterns	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#force_omni_input_patterns = get(g:, 'neocomplete#force_omni_input_patterns', {})$/;"	v	language:Vim
+g:neocomplete#force_omni_input_patterns	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#force_omni_input_patterns.javascript = '[^. \\t]\\.\\w*'$/;"	v	language:Vim
+g:neocomplete#sources#buffer#cache_limit_size	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#sources#buffer#cache_limit_size = 50000$/;"	v	language:Vim
+g:neocomplete#sources#syntax#min_keyword_length	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#sources#syntax#min_keyword_length = 3$/;"	v	language:Vim
+g:neocomplete#sources#syntax#min_keyword_length	/home/jjonker/.config/nvim/init.vim	/^    let g:neocomplete#sources#syntax#min_keyword_length = 3$/;"	v	language:Vim
+g:netrw_alto	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_alto = 1$/;"	v	language:Vim
+g:netrw_altv	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_altv = 1$/;"	v	language:Vim
+g:netrw_banner	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_banner = 0$/;"	v	language:Vim
+g:netrw_browse_split	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_browse_split = 4$/;"	v	language:Vim
+g:netrw_bufsettings	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_bufsettings .= ' buftype=nofile bufhidden=wipe'$/;"	v	language:Vim
+g:netrw_bufsettings	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_bufsettings = 'noma nomod nonu nobl nowrap ro' " default$/;"	v	language:Vim
+g:netrw_hide	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_hide = 1$/;"	v	language:Vim
+g:netrw_liststyle	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_liststyle = 3$/;"	v	language:Vim
+g:netrw_preview	/home/jjonker/.config/nvim/init.vim	/^let g:netrw_preview = 1$/;"	v	language:Vim
+g:peekaboo_window	/home/jjonker/.config/nvim/init.vim	/^let g:peekaboo_window = 'vertical botright 60new'$/;"	v	language:Vim
+g:pencil_terminal_italics	/home/jjonker/.config/nvim/init.vim	/^let g:pencil_terminal_italics = 1$/;"	v	language:Vim
+g:SimpylFold_docstring_preview	/home/jjonker/.config/nvim/init.vim	/^let g:SimpylFold_docstring_preview = 1$/;"	v	language:Vim
+g:SuperTabCrMapping	/home/jjonker/.config/nvim/init.vim	/^let g:SuperTabCrMapping = 1$/;"	v	language:Vim
+g:SuperTabDefaultCompletionType	/home/jjonker/.config/nvim/init.vim	/^let g:SuperTabDefaultCompletionType = 'context'$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_auto_loc_list = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_check_on_open = 0$/;"	v	language:Vim
+g:syntastic_check_on_wq	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_css_checkers	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_css_checkers = ['stylelint']$/;"	v	language:Vim
+g:syntastic_error_symbol	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_error_symbol = '✗'$/;"	v	language:Vim
+g:syntastic_javascript_eslint_exec	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_javascript_eslint_exec='syntastic'$/;"	v	language:Vim
+g:syntastic_loc_list_height	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_loc_list_height = 3$/;"	v	language:Vim
+g:syntastic_mode_map	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_mode_map = { "mode": "active",$/;"	v	language:Vim
+g:syntastic_scss_checkers	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_scss_checkers = ['stylelint']$/;"	v	language:Vim
+g:syntastic_style_error_symbol	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_style_error_symbol = '✗'$/;"	v	language:Vim
+g:syntastic_style_warning_symbol	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_style_warning_symbol = '!'$/;"	v	language:Vim
+g:syntastic_warning_symbol	/home/jjonker/.config/nvim/init.vim	/^let g:syntastic_warning_symbol = '!'$/;"	v	language:Vim
+g:tagabar_show_linenumbers	/home/jjonker/.config/nvim/init.vim	/^let g:tagabar_show_linenumbers = -1$/;"	v	language:Vim
+g:tagbar_auto_open	/home/jjonker/.config/nvim/init.vim	/^let g:tagbar_auto_open = 1$/;"	v	language:Vim
+g:tagbar_singleclick	/home/jjonker/.config/nvim/init.vim	/^let g:tagbar_singleclick = 1$/;"	v	language:Vim
+g:tern_show_argument_hints	/home/jjonker/.config/nvim/init.vim	/^    let g:tern_show_argument_hints = 'on_hold'$/;"	v	language:Vim
+g:tern_show_argument_hints	/home/jjonker/.config/nvim/init.vim	/^let g:tern_show_argument_hints = 'on_move'$/;"	v	language:Vim
+g:tern_show_signature_in_pum	/home/jjonker/.config/nvim/init.vim	/^    let g:tern_show_signature_in_pum = 1$/;"	v	language:Vim
+g:tern_show_signature_in_pum	/home/jjonker/.config/nvim/init.vim	/^let g:tern_show_signature_in_pum = 1$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/home/jjonker/.config/nvim/init.vim	/^let g:UltiSnipsExpandTrigger="<tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpBackwardTrigger	/home/jjonker/.config/nvim/init.vim	/^let g:UltiSnipsJumpBackwardTrigger="<s-tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpForwardTrigger	/home/jjonker/.config/nvim/init.vim	/^let g:UltiSnipsJumpForwardTrigger="<tab>"$/;"	v	language:Vim
+g:UltiSnipsSnippetDirectories	/home/jjonker/.config/nvim/init.vim	/^let g:UltiSnipsSnippetDirectories=["UltiSnips"]$/;"	v	language:Vim
+g:undotree_SetFocusWhenToggle	/home/jjonker/.config/nvim/init.vim	/^let g:undotree_SetFocusWhenToggle= 1$/;"	v	language:Vim
+g:undotree_SplitWidth	/home/jjonker/.config/nvim/init.vim	/^let g:undotree_SplitWidth= 50$/;"	v	language:Vim
+g:undotree_WindowLayout	/home/jjonker/.config/nvim/init.vim	/^let g:undotree_WindowLayout= 2$/;"	v	language:Vim
+g:user_emmet_install_global	/home/jjonker/.config/nvim/init.vim	/^let g:user_emmet_install_global = 0$/;"	v	language:Vim
+g:user_emmet_next_key	/home/jjonker/.config/nvim/init.vim	/^let g:user_emmet_next_key='<C-n>'$/;"	v	language:Vim
+g:use_emmet_complete_tag	/home/jjonker/.config/nvim/init.vim	/^let g:use_emmet_complete_tag = 1$/;"	v	language:Vim
+g:vim_json_syntax_conceal	/home/jjonker/.config/nvim/init.vim	/^let g:vim_json_syntax_conceal = 0$/;"	v	language:Vim
+ga	/home/jjonker/.config/nvim/init.vim	/^nmap ga <Plug>(EasyAlign)$/;"	m	language:Vim
+gb	/home/jjonker/.config/nvim/init.vim	/^nnoremap gb  :Gbrowse<CR> " Open current file on github.com$/;"	m	language:Vim
+gb	/home/jjonker/.config/nvim/init.vim	/^vnoremap gb  :Gbrowse<CR> " Make it work in Visual mode to open with highlighted linenumbers$/;"	m	language:Vim
+gV	/home/jjonker/.config/nvim/init.vim	/^nnoremap gV `[v`]$/;"	m	language:Vim
+j	/home/jjonker/.config/nvim/init.vim	/^map j gj$/;"	m	language:Vim
+jj	/home/jjonker/.config/nvim/init.vim	/^inoremap jj <ESC>$/;"	m	language:Vim
+k	/home/jjonker/.config/nvim/init.vim	/^map k gk$/;"	m	language:Vim
+K	/home/jjonker/.config/nvim/init.vim	/^nnoremap K :silent! grep! "\\b<C-R><C-W>\\b"<CR>:cw<CR>$/;"	m	language:Vim
+Light	/home/jjonker/.config/nvim/init.vim	/^command! Light set background=light$/;"	c	language:Vim
+mapleader	/home/jjonker/.config/nvim/init.vim	/^let mapleader = ' '$/;"	v	language:Vim
+n	/home/jjonker/.config/nvim/init.vim	/^nnoremap n nzzzv$/;"	m	language:Vim
+N	/home/jjonker/.config/nvim/init.vim	/^nnoremap N Nzzzv$/;"	m	language:Vim
+NeatFoldText	/home/jjonker/.config/nvim/init.vim	/^  function! NeatFoldText()$/;"	f	language:Vim
+omnicomplete	/home/jjonker/.config/nvim/init.vim	/^aug omnicomplete$/;"	a	language:Vim
+omnifuncs	/home/jjonker/.config/nvim/init.vim	/^  augroup omnifuncs$/;"	a	language:Vim
+Preserve	/home/jjonker/.config/nvim/init.vim	/^function! Preserve(command)$/;"	f	language:Vim
+Q	/home/jjonker/.config/nvim/init.vim	/^command! Q q$/;"	c	language:Vim
+Q	/home/jjonker/.config/nvim/init.vim	/^nnoremap Q @q$/;"	m	language:Vim
+setupWrapping	/home/jjonker/.config/nvim/init.vim	/^function! s:setupWrapping()$/;"	f	language:Vim
+Tags	/home/jjonker/.config/nvim/init.vim	/^command! Tags call s:tags()$/;"	c	language:Vim
+tags	/home/jjonker/.config/nvim/init.vim	/^function! s:tags()$/;"	f	language:Vim
+tags_sink	/home/jjonker/.config/nvim/init.vim	/^function! s:tags_sink(line)$/;"	f	language:Vim
+user_emmet_expandabbr_key	/home/jjonker/.config/nvim/init.vim	/^let user_emmet_expandabbr_key = '<C-e>'$/;"	v	language:Vim
+vimrcEx	/home/jjonker/.config/nvim/init.vim	/^augroup vimrcEx$/;"	a	language:Vim
+W	/home/jjonker/.config/nvim/init.vim	/^command! W w$/;"	c	language:Vim
+WordCount	/home/jjonker/.config/nvim/init.vim	/^function! WordCount()$/;"	f	language:Vim
+WQ	/home/jjonker/.config/nvim/init.vim	/^command! WQ wq$/;"	c	language:Vim
+Wq	/home/jjonker/.config/nvim/init.vim	/^command! Wq wq$/;"	c	language:Vim
+Wqa	/home/jjonker/.config/nvim/init.vim	/^command! Wqa wqa$/;"	c	language:Vim
+WS	/home/jjonker/.config/nvim/init.vim	/^command! WS w !sudo tee %$/;"	c	language:Vim
+ZoomToggle	/home/jjonker/.config/nvim/init.vim	/^command! ZoomToggle call s:ZoomToggle()$/;"	c	language:Vim
+ZoomToggle	/home/jjonker/.config/nvim/init.vim	/^function! s:ZoomToggle() abort$/;"	f	language:Vim
+\	/home/jjonker/.config/nvim/init.vim	/^nnoremap \\ :Ag<SPACE>$/;"	m	language:Vim
+\|\|	/home/jjonker/.config/nvim/init.vim	/^nnoremap \\|\\| <C-w>t<C-w>H<CR>$/;"	m	language:Vim
+_$	/home/jjonker/.config/nvim/init.vim	/^nnoremap _$ :call Preserve("%s\/\\\\s\\\\+$\/\/e")<CR>$/;"	m	language:Vim
+_=	/home/jjonker/.config/nvim/init.vim	/^nnoremap _= :call Preserve("normal gg=G")<CR>$/;"	m	language:Vim
