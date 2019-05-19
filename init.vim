@@ -27,7 +27,7 @@ endif
 Plug 'SirVer/ultisnips'
 Plug 'Raimondi/delimitMate'
 Plug 'ervandew/supertab'
-Plug 'junegunn/fzf'                               , { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
+Plug 'junegunn/fzf'                               , { 'dir': '~/.fzf', 'do': 'yes \| ./install --all' }
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'mattn/emmet-vim'                            , { 'for': ['html', 'htmldjango', 'jinja'] }
 Plug 'rking/ag.vim'                               , { 'on': [ 'Ag' ] }
@@ -81,6 +81,7 @@ Plug 'morhetz/gruvbox'
 Plug 'w0ng/vim-hybrid'
 Plug 'geoffharcourt/one-dark.vim'
 Plug 'tomasr/molokai'
+Plug 'ayu-theme/ayu-vim'
 
 " Git
 Plug 'airblade/vim-gitgutter'
@@ -110,7 +111,17 @@ let g:pencil_terminal_italics = 1
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark='hard'
 " colorscheme onedark
-colorscheme molokai
+"
+" Molokai used previously:
+" colorscheme molokai
+
+" Ayu colorscheme
+set termguicolors     " enable true colors support
+let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
+
 highlight Comment cterm=italic gui=italic
 
 " Airline
@@ -289,6 +300,10 @@ let g:netrw_bufsettings .= ' buftype=nofile bufhidden=wipe'
 autocmd FileType jade set commentstring=//-\ %s
 autocmd FileType ruby set commentstring=#\ %s
 autocmd FileType htmldjango,jinja set commentstring={#\ %s\ #}
+
+" Linewidth
+let g:syntastic_python_flake8_config_file='.flake8'
+let g:syntastic_python_pylint_post_args="--max-line-length=120"
 
 " JSON
 let g:vim_json_syntax_conceal = 0
